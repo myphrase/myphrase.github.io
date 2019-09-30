@@ -1,0 +1,34 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #AD5A22;
+  font-family: Lucida Grande, Roboto, Open Sans;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .container {
+    width: 720px;
+  }
+}
+
+p {
+  color: #F4D4BD;
+  font-size: 18px;
+  padding: 1em;
+  line-height: 23px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
